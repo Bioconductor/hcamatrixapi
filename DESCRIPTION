@@ -1,0 +1,12 @@
+Package: hcamatrixapi
+Title: R Package Client for HCA Matrix Service
+Version: 0.99.0
+Authors@R: person("OpenAPI Generator community", email = "team@openapitools.org", role = c("aut", "cre"))
+Description: Human Cell Atlas Matrix Service API
+Depends: R (>= 3.3.3)
+Encoding: UTF-8
+License: Unlicense
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, caTools
+RoxygenNote: 6.0.1.9000
