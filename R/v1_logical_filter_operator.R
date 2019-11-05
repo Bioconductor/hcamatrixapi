@@ -17,7 +17,7 @@
 V1LogicalFilterOperator <- R6::R6Class(
   'V1LogicalFilterOperator',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

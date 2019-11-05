@@ -17,7 +17,7 @@
 V0MatrixRequestStatus <- R6::R6Class(
   'V0MatrixRequestStatus',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

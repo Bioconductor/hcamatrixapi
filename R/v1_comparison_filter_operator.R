@@ -17,7 +17,7 @@
 V1ComparisonFilterOperator <- R6::R6Class(
   'V1ComparisonFilterOperator',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

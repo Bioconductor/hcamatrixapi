@@ -17,7 +17,7 @@
 V0MatrixFormat <- R6::R6Class(
   'V0MatrixFormat',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {
