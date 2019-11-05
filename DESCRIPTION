@@ -9,4 +9,4 @@ License: Unlicense
 LazyData: true
 Suggests: testthat
 Imports: jsonlite, httr, R6, caTools
-RoxygenNote: 6.0.1.9000
+RoxygenNote: 6.1.1
